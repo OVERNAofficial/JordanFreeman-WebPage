@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertCircle } from "lucide-react";
-import logoImage from "public/JordanFreemanLogo.png";
+// Removed import for public asset
 
 export default function NotFound() {
   return (

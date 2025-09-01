@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Download } from "lucide-react";
 import { useLocation } from "react-router-dom";
-import logoImage from "public/JordanFreemanLogo.png";
 
 // Import project logos
 import racetekLogo from "/racetek-logo.png";
@@ -66,7 +65,7 @@ export default function Navigation() {
               onClick={() => setIsLogoOpen(true)}
             >
               <img
-                src={logoImage}
+                src="/JordanFreemanLogo.png"
                 alt="Jordan Freeman Logo"
                 className="w-10 h-10 rounded-full border border-gray-500"
               />
@@ -234,7 +233,7 @@ export default function Navigation() {
             onClick={() => setIsLogoOpen(false)}
           >
             <motion.img
-              src={logoImage}
+              src="/JordanFreemanLogo.png"
               alt="Jordan Freeman"
               className="w-72 h-72 md:w-[28rem] md:h-[28rem] rounded-full border-4 border-[#39FF14] shadow-[0_0_25px_#39FF14aa]"
               initial={{ scale: 0.7, opacity: 0 }}

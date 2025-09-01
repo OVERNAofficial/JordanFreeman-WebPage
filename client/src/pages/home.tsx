@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import FeaturesSection from "@/components/FeaturesSection";
-import logoImage from "public/JordanFreemanLogo.png";
+// Removed import for public asset
 
 export default function Home() {
   return (
