@@ -3,37 +3,37 @@ import { Link } from "react-router-dom";
 
 const projects = [
   {
-    logo: "/racetek-logo.png",
+  logo: "/racetek-logo.png",
     title: "RACETEK",
     desc: "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
     link: "/projects/racetek",
   },
   {
-    logo: "/OVERNAthemelogo.png",
+  logo: "/OVERNAthemelogo.png",
     title: "ØVERNA Composer",
     desc: "Autonomous DAW assistant for MIDI/sample generation, real-time automation, and seamless DAW integration.",
     link: "/projects/overna",
   },
   {
-    logo: "/OVERNAthemelogo.png",
+  logo: "/OVERNAthemelogo.png",
     title: "ØVERNA Focus (w/ Bridge)",
     desc: "Audio plugin suite. Focus isolates transients to tighten mixes, while The Bridge enables experimental sound design workflows.",
     link: "/projects/plugins",
   },
   {
-    logo: "/synterra-icon.png",
+  logo: "/synterra-icon.png",
     title: "SYNTERRA OS",
     desc: "Local modular AI operating system with persistent agent memory, macOS automation, and plugin-ready architecture.",
     link: "/projects/synterra",
   },
   {
-    logo: "/AERMORIX.png",
+  logo: "/AERMORIX.png",
     title: "Ærmorix",
     desc: "AI-powered cybersecurity platform delivering real-time monitoring, automated defense, and intelligent threat analysis.",
     link: "/projects/aermorix",
   },
   {
-    logo: "/saas.png",
+  logo: "/saas.png",
     title: "SaaS-Trend",
     desc: "Aggregator for rising SaaS tools with Product Hunt integration, trend insights, and newsletter-ready design.",
     link: "/projects/saastrend",
