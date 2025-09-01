@@ -228,7 +228,7 @@ export default function Navigation() {
             onClick={() => setIsLogoOpen(false)}
           >
             <motion.img
-              src="/assets/JordanFreemanLogo.png"
+              src="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/JordanFreemanLogo.png"
               alt="Jordan Freeman"
               className="w-72 h-72 md:w-[28rem] md:h-[28rem] rounded-full border-4 border-[#39FF14] shadow-[0_0_25px_#39FF14aa]"
               initial={{ scale: 0.7, opacity: 0 }}
