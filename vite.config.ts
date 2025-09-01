@@ -6,22 +6,16 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(import.meta.dirname, "client", "src"),
-      "@shared": path.resolve(import.meta.dirname, "shared"),
-      "@assets": path.resolve(import.meta.dirname, "attached_assets"),
+      "@": path.resolve(__dirname, "client", "src"),
+      "@shared": path.resolve(__dirname, "shared"),
+      "@assets": path.resolve(__dirname, "public/assets"), // serve static assets
     },
   },
-  root: path.resolve(import.meta.dirname, "client"),
-  publicDir: path.resolve(import.meta.dirname, "public"), // ✅ ensure /public is copied
+  root: path.resolve(__dirname, "client"),
+  publicDir: path.resolve(__dirname, "public"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: path.resolve(__dirname, "dist"), // matches Vercel
     emptyOutDir: true,
-    assetsDir: "assets", // ✅ keeps mp4/png/css/js grouped under /assets
-  },
-  server: {
-    fs: {
-      strict: true,
-      deny: ["**/.*"],
-    },
+    assetsDir: "assets",
   },
 });
