@@ -167,9 +167,9 @@ export default function ProjectDetailLayout({
               playsInline
               preload="auto"
               className="w-full h-full object-contain"
-              src={`${import.meta.env.BASE_URL}${video.replace(/^\//, "")}`}
+              src={video}
             >
-              <source src={`${import.meta.env.BASE_URL}${video.replace(/^\//, "")}`} type="video/mp4" />
+              <source src={video} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
