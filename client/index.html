@@ -43,6 +43,8 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="src/main.tsx"></script>
+  <!-- Vite injects CSS in dev, but in production we need to reference the built CSS file. -->
+  <link rel="stylesheet" href="/assets/index.css" />
+  <script type="module" src="src/main.tsx"></script>
   </body>
 </html>
