@@ -8,13 +8,13 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "client", "src"),
       "@shared": path.resolve(__dirname, "shared"),
-      "@assets": path.resolve(__dirname, "public/assets"), // serve static assets
+      "@assets": path.resolve(__dirname, "attached_assets"), // ✅ fix: use attached_assets for your logo/images
     },
   },
   root: path.resolve(__dirname, "client"),
   publicDir: path.resolve(__dirname, "public"),
   build: {
-    outDir: path.resolve(__dirname, "dist"), // matches Vercel
+    outDir: path.resolve(__dirname, "dist"), // ✅ matches Vercel
     emptyOutDir: true,
     assetsDir: "assets",
   },
