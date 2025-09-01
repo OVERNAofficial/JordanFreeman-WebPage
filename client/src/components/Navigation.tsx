@@ -2,15 +2,15 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Download } from "lucide-react";
 import { useLocation } from "react-router-dom";
-import logoImage from "@assets/JordanFreemanLogo.png";
+import logoImage from "/JordanFreemanLogo.png";
 
 // Import project logos
-import racetekLogo from "/assets/racetek-logo.png";
-import overnaLogo from "/assets/OVERNAthemelogo.png";
-import pluginsLogo from "/assets/OVERNAthemelogo.png";
-import synterraLogo from "/assets/synterra-icon.png";
-import aermorixLogo from "/assets/AERMORIX.png";
-import saasLogo from "/assets/saas.png";
+import racetekLogo from "/racetek-logo.png";
+import overnaLogo from "/OVERNAthemelogo.png";
+import pluginsLogo from "/OVERNAthemelogo.png";
+import synterraLogo from "/synterra-icon.png";
+import aermorixLogo from "/AERMORIX.png";
+import saasLogo from "/saas.png";
 
 // Import modal components
 import ProjectsModal from "./ProjectsModal";

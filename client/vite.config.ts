@@ -14,7 +14,7 @@ export default defineConfig({
   publicDir: path.resolve(__dirname, "../public"),
   build: {
     outDir: "dist",
-    emptyOutDir: true,
-    assetsDir: "assets",
+    emptyOutDir: true
+    // assetsDir removed so all static files go to dist root for Vercel
   },
 });

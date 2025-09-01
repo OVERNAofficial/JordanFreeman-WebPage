@@ -11,8 +11,8 @@ export default function AermorixPage() {
         "Customizable alerting and dashboards",
         "Real-time attack detection and defense",
       ]}
-      logo="/assets/AERMORIX.png"
-      video="/assets/aermorixdemo.mp4"
+  logo="/AERMORIX.png"
+  video="/aermorixdemo.mp4"
       prev={{ path: "/projects/overna", label: "ØVERNA" }}
       next={{ path: "/projects/synterra", label: "SYNTERRA" }}
     />

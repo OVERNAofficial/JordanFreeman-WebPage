@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import logoImage from "@assets/JordanFreemanLogo.png"; // replace with your portfolio logo if available
+import logoImage from "/JordanFreemanLogo.png"; // replace with your portfolio logo if available
 
 interface LogoIntroProps {
   onComplete: () => void;
