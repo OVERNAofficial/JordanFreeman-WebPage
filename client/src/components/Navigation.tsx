@@ -4,12 +4,7 @@ import { Menu, X, Download } from "lucide-react";
 import { useLocation } from "react-router-dom";
 
 // Import project logos
-import racetekLogo from "/assets/racetek-logo.png";
-import overnaLogo from "/assets/OVERNAthemelogo.png";
-import pluginsLogo from "/assets/OVERNAthemelogo.png";
-import synterraLogo from "/assets/synterra-icon.png";
-import aermorixLogo from "/assets/AERMORIX.png";
-import saasLogo from "/assets/saas.png";
+
 
 // Import modal components
 import ProjectsModal from "./ProjectsModal";
@@ -18,12 +13,12 @@ import AboutModal from "./AboutModal";
 import ContactModal from "./ContactModal";
 
 const projectHeaders: Record<string, { title: string; logo: string }> = {
-  "/projects/racetek": { title: "RACETEK", logo: racetekLogo },
-  "/projects/overna": { title: "ØVERNA", logo: overnaLogo },
-  "/projects/plugins": { title: "FØCUS", logo: pluginsLogo },
-  "/projects/synterra": { title: "SYNTERRA", logo: synterraLogo },
-  "/projects/aermorix": { title: "Ærmorix", logo: aermorixLogo },
-  "/projects/saastrend": { title: "SaaS-Trend", logo: saasLogo },
+  "/projects/racetek": { title: "RACETEK", logo: "/assets/racetek-logo.png" },
+  "/projects/overna": { title: "ØVERNA", logo: "/assets/OVERNAthemelogo.png" },
+  "/projects/plugins": { title: "FØCUS", logo: "/assets/OVERNAthemelogo.png" },
+  "/projects/synterra": { title: "SYNTERRA", logo: "/assets/synterra-icon.png" },
+  "/projects/aermorix": { title: "Ærmorix", logo: "/assets/AERMORIX.png" },
+  "/projects/saastrend": { title: "SaaS-Trend", logo: "/assets/saas.png" },
 };
 
 export default function Navigation() {
