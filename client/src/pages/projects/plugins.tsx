@@ -11,8 +11,8 @@ export default function PluginsPage() {
         "Cross-platform support for VST3/AU",
         "Experimental sound design tools with The Bridge",
       ]}
-  logo="/OVERNAthemelogo.png"
-  video="/focusdemo.mp4"
+  logo="/assets/OVERNAthemelogo.png"
+  video="/assets/focusdemo.mp4"
       prev={{ path: "/projects/saastrend", label: "SaaS-Trend" }}
       next={{ path: "/projects/racetek", label: "RACETEK" }}
     />

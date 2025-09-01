@@ -11,8 +11,8 @@ export default function SaasTrendPage() {
         "Newsletter-ready clean UI design",
         "Modern stack with React + Tailwind",
       ]}
-  logo="/saas.png"
-  video="/saastrenddemo.mp4"
+  logo="/assets/saas.png"
+  video="/assets/saastrenddemo.mp4"
       prev={{ path: "/projects/synterra", label: "SYNTERRA" }}
       next={{ path: "/projects/plugins", label: "Plugins" }}
     />
