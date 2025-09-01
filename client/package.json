@@ -4,6 +4,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
+    "build": "[my-framework] build --output public",
     "dev": "vite",
     "dev:host": "vite --host",
     "build": "vite build",
