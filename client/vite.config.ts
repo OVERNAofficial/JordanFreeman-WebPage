@@ -13,7 +13,7 @@ export default defineConfig({
   },
   publicDir: path.resolve(__dirname, "../public"),
   build: {
-    outDir: path.resolve(__dirname, "../dist"),
+    outDir: "dist",
     emptyOutDir: true,
     assetsDir: "assets",
   },
