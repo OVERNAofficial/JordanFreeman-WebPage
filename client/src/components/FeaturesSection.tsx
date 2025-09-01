@@ -12,7 +12,7 @@ const projects = [
     description:
       "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
     link: "/projects/racetek",
-    logo: "/assets/racetek-logo.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png",
     // external: false
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     description:
       "Autonomous DAW assistant for MIDI/sample generation, real-time automation, and seamless integration with MPC, Reaper, and Ableton.",
     link: "/projects/overna",
-    logo: "/assets/OVERNAthemelogo.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
     // external: false
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     description:
       "A suite of ØVERNA audio plugins. Focus is a VST3/AU transient isolator designed to clean up kick bleeding and tighten low-end dynamics. Includes The Bridge, a creative audio utility for experimental sound design.",
     link: "/projects/plugins",
-    logo: "/assets/OVERNAthemelogo.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
     // external: false
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     description:
       "Local modular AI operating system with file manager, macOS automation, browser integration, and persistent agent memory.",
     link: "/projects/synterra",
-    logo: "/assets/synterra-icon.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/synterra-icon.png",
     // external: false
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     description:
       "AI-powered cybersecurity platform delivering real-time monitoring, automated defense, and intelligent threat analysis.",
     link: "/projects/aermorix",
-    logo: "/assets/AERMORIX.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/AERMORIX.png",
     // external: false
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     description:
       "SaaS insights aggregator with trend tracking, Product Hunt integrations, and clean modern UI for newsletters and discovery.",
     link: "/projects/saastrend",
-    logo: "/assets/saas.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/saas.png",
     // external: false
   },
 ];
@@ -89,7 +89,7 @@ export default function FeaturesSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src="/assets/JordanFreemanLogo.png"
+            src="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/JordanFreemanLogo.png"
             alt="Jordan Freeman Logo"
             className="w-56 h-56 mb-2 rounded-full border-4 border-[#39FF14] shadow-[0_0_30px_#39FF14aa]"
           />
@@ -196,7 +196,7 @@ export default function FeaturesSection() {
 
             {/* Download button */}
             <a
-              href="/assets/JordanFreemanRésumé.pdf"
+              href="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/JordanFreemanR%C3%A9sum%C3%A9.pdf"
               download
               className="absolute top-3 left-3 text-gray-300 hover:text-[#39FF14] transition flex items-center gap-1"
             >
@@ -206,7 +206,7 @@ export default function FeaturesSection() {
 
             {/* PDF Viewer */}
             <iframe
-              src="/assets/JordanFreemanRésumé.pdf"
+              src="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/JordanFreemanR%C3%A9sum%C3%A9.pdf"
               className="w-full h-full rounded-lg"
               title="Resume PDF"
             />

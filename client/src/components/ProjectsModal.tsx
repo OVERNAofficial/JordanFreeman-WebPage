@@ -3,37 +3,37 @@ import { useNavigate } from "react-router-dom";
 
 const projects = [
   {
-  logo: "/assets/racetek-logo.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png",
     title: "RACETEK",
     desc: "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
     link: "/projects/racetek",
   },
   {
-  logo: "/assets/OVERNAthemelogo.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
     title: "ØVERNA Composer",
     desc: "Autonomous DAW assistant for MIDI/sample generation, real-time automation, and seamless DAW integration.",
     link: "/projects/overna",
   },
   {
-  logo: "/assets/OVERNAthemelogo.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
     title: "ØVERNA Focus (w/ Bridge)",
     desc: "Audio plugin suite. Focus isolates transients to tighten mixes, while The Bridge enables experimental sound design workflows.",
     link: "/projects/plugins",
   },
   {
-  logo: "/assets/synterra-icon.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/synterra-icon.png",
     title: "SYNTERRA OS",
     desc: "Local modular AI operating system with persistent agent memory, macOS automation, and plugin-ready architecture.",
     link: "/projects/synterra",
   },
   {
-  logo: "/assets/AERMORIX.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/AERMORIX.png",
     title: "Ærmorix",
     desc: "AI-powered cybersecurity platform delivering real-time monitoring, automated defense, and intelligent threat analysis.",
     link: "/projects/aermorix",
   },
   {
-  logo: "/assets/saas.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/saas.png",
     title: "SaaS-Trend",
     desc: "Aggregator for rising SaaS tools with Product Hunt integration, trend insights, and newsletter-ready design.",
     link: "/projects/saastrend",

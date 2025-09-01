@@ -11,8 +11,8 @@ export default function RacetekPage() {
         "AI-driven pit stop timing and strategy",
         "ECHO assistant for real-time driver feedback",
       ]}
-  logo="/assets/racetek-logo.png"
-  video="/assets/racetekdemo.mp4"
+  logo="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png"
+  video="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetekdemo.mp4"
       prev={{ path: "/projects/saastrend", label: "SaaS Trend" }}
       next={{ path: "/projects/overna", label: "ØVERNA" }}
     />

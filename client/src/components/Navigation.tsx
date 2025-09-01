@@ -13,12 +13,12 @@ import AboutModal from "./AboutModal";
 import ContactModal from "./ContactModal";
 
 const projectHeaders: Record<string, { title: string; logo: string }> = {
-  "/projects/racetek": { title: "RACETEK", logo: "/assets/racetek-logo.png" },
-  "/projects/overna": { title: "ØVERNA", logo: "/assets/OVERNAthemelogo.png" },
-  "/projects/plugins": { title: "FØCUS", logo: "/assets/OVERNAthemelogo.png" },
-  "/projects/synterra": { title: "SYNTERRA", logo: "/assets/synterra-icon.png" },
-  "/projects/aermorix": { title: "Ærmorix", logo: "/assets/AERMORIX.png" },
-  "/projects/saastrend": { title: "SaaS-Trend", logo: "/assets/saas.png" },
+  "/projects/racetek": { title: "RACETEK", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png" },
+  "/projects/overna": { title: "ØVERNA", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png" },
+  "/projects/plugins": { title: "FØCUS", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png" },
+  "/projects/synterra": { title: "SYNTERRA", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/synterra-icon.png" },
+  "/projects/aermorix": { title: "Ærmorix", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/AERMORIX.png" },
+  "/projects/saastrend": { title: "SaaS-Trend", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/saas.png" },
 };
 
 export default function Navigation() {
@@ -60,7 +60,7 @@ export default function Navigation() {
               onClick={() => setIsLogoOpen(true)}
             >
               <img
-                src="/assets/JordanFreemanLogo.png"
+                src="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/JordanFreemanLogo.png"
                 alt="Jordan Freeman Logo"
                 className="w-10 h-10 rounded-full border border-gray-500"
               />

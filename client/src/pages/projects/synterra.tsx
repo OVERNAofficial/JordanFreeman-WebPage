@@ -11,8 +11,8 @@ export default function SynterraPage() {
         "macOS automation integration",
         "File manager, browser, and plugin support",
       ]}
-  logo="/assets/synterra-icon.png"
-  video="/assets/synterrademo.mp4"
+  logo="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/synterra-icon.png"
+  video="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/synterrademo.mp4"
       prev={{ path: "/projects/aermorix", label: "AERMORIX" }}
       next={{ path: "/projects/saastrend", label: "SaaS-Trend" }}
     />

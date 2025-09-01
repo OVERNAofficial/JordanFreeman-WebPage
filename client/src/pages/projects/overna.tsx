@@ -11,8 +11,8 @@ export default function OvernaPage() {
         "Drag-and-drop export to MPC and DAWs",
         "Supports multi-layer tracks with effects",
       ]}
-  logo="/assets/OVERNAthemelogo.png"
-  video="/assets/overnademo.mp4"
+  logo="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png"
+  video="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/overnademo.mp4"
       prev={{ path: "/projects/racetek", label: "RACETEK" }}
       next={{ path: "/projects/aermorix", label: "AERMORIX" }}
     />
