@@ -1,14 +1,4 @@
-# Ignore backend and configs
 server/
 shared/
 drizzle.config.ts
-
-# Ignore local build outputs (Vercel builds fresh)
 dist/
-
-# Ignore raw TS sources outside client
-*.ts
-*.tsx
-
-# BUT always allow built assets after build
-!dist/**
