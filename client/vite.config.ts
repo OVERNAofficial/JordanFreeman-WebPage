@@ -11,9 +11,9 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "../public/assets"),
     },
   },
-  publicDir: path.resolve(__dirname, "../public"), // make sure this is correct if you use public assets
+  publicDir: path.resolve(__dirname, "../public"),
   build: {
-    outDir: path.resolve(__dirname, "../dist"), // output to root/dist for Vercel
+    outDir: path.resolve(__dirname, "../dist"),
     emptyOutDir: true,
     assetsDir: "assets",
   },
