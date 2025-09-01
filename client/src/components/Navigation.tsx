@@ -275,7 +275,7 @@ export default function Navigation() {
                 <span>Download</span>
               </a>
               <iframe
-                src="/JordanFreemanRésumé.pdf"
+                src="/assets/JordanFreemanRésumé.pdf"
                 className="w-full h-full rounded-lg"
                 title="Jordan Freeman Résumé"
               />

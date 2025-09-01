@@ -155,14 +155,17 @@ export default function ProjectDetailLayout({
           >
             <video
               ref={videoRef}
-              src={`${import.meta.env.BASE_URL}${video.replace(/^\//, "")}`}
               autoPlay
               muted
               loop
               playsInline
               preload="auto"
               className="w-full h-full object-contain"
-            />
+              src={`${import.meta.env.BASE_URL}${video.replace(/^\//, "")}`}
+            >
+              <source src={`${import.meta.env.BASE_URL}${video.replace(/^\//, "")}`} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
 
             {/* Controls */}
             <div className="absolute bottom-0 left-0 right-0 bg-black/70 px-4 py-2 flex items-center gap-3">
