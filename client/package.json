@@ -4,10 +4,9 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "dev:host": "vite --host",
+  "dev": "vite",
+  "dev:host": "vite --host",
   "build": "vite build",
-  "postbuild": "node scripts/copy-assets.cjs",
     "start": "vite preview",
     "preview": "vite preview",
     "check": "tsc",

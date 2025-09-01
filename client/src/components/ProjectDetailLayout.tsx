@@ -93,8 +93,14 @@ export default function ProjectDetailLayout({
     videoRef.current.currentTime = time;
   };
 
-  const formatTime = (time: number) =>
-    new Date(time * 1000).toISOString().substr(14, 5);
+  const formatTime = (time: number) => {
+    if (!isFinite(time) || isNaN(time) || time < 0) return "00:00";
+    try {
+      return new Date(time * 1000).toISOString().substr(14, 5);
+    } catch {
+      return "00:00";
+    }
+  };
 
   return (
     <section className="py-20 px-4">

@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
@@ -10,42 +12,48 @@ const projects = [
     description:
       "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
     link: "/projects/racetek",
-  logo: "/assets/racetek-logo.png",
+    logo: "/assets/racetek-logo.png",
+    // external: false
   },
   {
     title: "ØVERNA Composer",
     description:
       "Autonomous DAW assistant for MIDI/sample generation, real-time automation, and seamless integration with MPC, Reaper, and Ableton.",
     link: "/projects/overna",
-  logo: "/assets/OVERNAthemelogo.png",
+    logo: "/assets/OVERNAthemelogo.png",
+    // external: false
   },
   {
     title: "ØVERNA Focus (w/ Bridge)",
     description:
       "A suite of ØVERNA audio plugins. Focus is a VST3/AU transient isolator designed to clean up kick bleeding and tighten low-end dynamics. Includes The Bridge, a creative audio utility for experimental sound design.",
     link: "/projects/plugins",
-  logo: "/assets/OVERNAthemelogo.png",
+    logo: "/assets/OVERNAthemelogo.png",
+    // external: false
   },
   {
     title: "SYNTERRA OS",
     description:
       "Local modular AI operating system with file manager, macOS automation, browser integration, and persistent agent memory.",
     link: "/projects/synterra",
-  logo: "/assets/synterra-icon.png",
+    logo: "/assets/synterra-icon.png",
+    // external: false
   },
   {
     title: "Ærmorix",
     description:
       "AI-powered cybersecurity platform delivering real-time monitoring, automated defense, and intelligent threat analysis.",
     link: "/projects/aermorix",
-  logo: "/assets/AERMORIX.png",
+    logo: "/assets/AERMORIX.png",
+    // external: false
   },
   {
     title: "SaaS-Trend",
     description:
       "SaaS insights aggregator with trend tracking, Product Hunt integrations, and clean modern UI for newsletters and discovery.",
     link: "/projects/saastrend",
-  logo: "/assets/saas.png",
+    logo: "/assets/saas.png",
+    // external: false
   },
 ];
 
@@ -112,58 +120,64 @@ export default function FeaturesSection() {
         {/* Left Column */}
         <div className="flex flex-col justify-between gap-8 order-2 lg:order-1 mt-8">
           {leftProjects.map((project, index) => (
-            <motion.a
+            <motion.div
               key={index}
-              href={project.link}
-              className="rounded-xl p-6 border border-gray-400 text-gray-200
-                   hover:border-[#39FF14] hover:text-[#39FF14] 
-                   hover:shadow-[0_0_15px_#39FF14aa]
-                   transition-all duration-300 bg-[#0d0d0d]/60 flex flex-col h-full group"
               initial={{ opacity: 0, y: 10 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
-              <div className="mb-4 flex justify-center">
-                <img
-                  src={project.logo}
-                  alt={`${project.title} Logo`}
-                  className="w-20 h-20 object-contain group-hover:scale-110 transition-transform duration-200"
-                />
-              </div>
-              <h3 className="font-cinzel text-xl font-semibold mb-3">{project.title}</h3>
-              <p className="bg-gradient-to-r from-gray-400 via-[#2ecf13] to-gray-400 bg-clip-text text-transparent animate-sparkle">
-                {project.description}
-              </p>
-            </motion.a>
+              <Link
+                to={project.link}
+                className="rounded-xl p-6 border border-gray-400 text-gray-200
+                     hover:border-[#39FF14] hover:text-[#39FF14] 
+                     hover:shadow-[0_0_15px_#39FF14aa]
+                     transition-all duration-300 bg-[#0d0d0d]/60 flex flex-col h-full group"
+              >
+                <div className="mb-4 flex justify-center">
+                  <img
+                    src={project.logo}
+                    alt={`${project.title} Logo`}
+                    className="w-20 h-20 object-contain group-hover:scale-110 transition-transform duration-200"
+                  />
+                </div>
+                <h3 className="font-cinzel text-xl font-semibold mb-3">{project.title}</h3>
+                <p className="bg-gradient-to-r from-gray-400 via-[#2ecf13] to-gray-400 bg-clip-text text-transparent animate-sparkle">
+                  {project.description}
+                </p>
+              </Link>
+            </motion.div>
           ))}
         </div>
 
         {/* Right Column */}
         <div className="flex flex-col justify-between gap-8 order-3 lg:order-3 mt-8">
           {rightProjects.map((project, index) => (
-            <motion.a
+            <motion.div
               key={index}
-              href={project.link}
-              className="rounded-xl p-6 border border-gray-400 text-gray-200
-                   hover:border-[#39FF14] hover:text-[#39FF14] 
-                   hover:shadow-[0_0_15px_#39FF14aa]
-                   transition-all duration-300 bg-[#0d0d0d]/60 flex flex-col h-full group"
               initial={{ opacity: 0, y: 10 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
-              <div className="mb-4 flex justify-center">
-                <img
-                  src={project.logo}
-                  alt={`${project.title} Logo`}
-                  className="w-20 h-20 object-contain group-hover:scale-110 transition-transform duration-200"
-                />
-              </div>
-              <h3 className="font-cinzel text-xl font-semibold mb-3">{project.title}</h3>
-              <p className="bg-gradient-to-r from-gray-400 via-[#2ecf13] to-gray-400 bg-clip-text text-transparent animate-sparkle">
-                {project.description}
-              </p>
-            </motion.a>
+              <Link
+                to={project.link}
+                className="rounded-xl p-6 border border-gray-400 text-gray-200
+                     hover:border-[#39FF14] hover:text-[#39FF14] 
+                     hover:shadow-[0_0_15px_#39FF14aa]
+                     transition-all duration-300 bg-[#0d0d0d]/60 flex flex-col h-full group"
+              >
+                <div className="mb-4 flex justify-center">
+                  <img
+                    src={project.logo}
+                    alt={`${project.title} Logo`}
+                    className="w-20 h-20 object-contain group-hover:scale-110 transition-transform duration-200"
+                  />
+                </div>
+                <h3 className="font-cinzel text-xl font-semibold mb-3">{project.title}</h3>
+                <p className="bg-gradient-to-r from-gray-400 via-[#2ecf13] to-gray-400 bg-clip-text text-transparent animate-sparkle">
+                  {project.description}
+                </p>
+              </Link>
+            </motion.div>
           ))}
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const projects = [
   {
@@ -47,6 +47,11 @@ export default function ProjectsModal({
   isOpen: boolean;
   onClose: () => void;
 }) {
+  const navigate = useNavigate();
+  const handleProjectClick = (link: string) => {
+    navigate(link);
+    onClose();
+  };
   return (
     <AnimatePresence>
       {isOpen && (
@@ -70,33 +75,32 @@ export default function ProjectsModal({
 
             <div className="space-y-3">
               {projects.map((p, idx) => (
-                <Link key={idx} to={p.link} onClick={onClose}>
-                  <motion.div
-                    className="p-4 rounded-lg border border-gray-600 bg-black/40 
+                <motion.div
+                  key={idx}
+                  className="p-4 rounded-lg border border-gray-600 bg-black/40 
                  hover:border-[#39FF14] hover:shadow-[0_0_12px_#39FF14aa] 
                  transition-all duration-300 cursor-pointer"
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                  >
-                    <div className="flex items-start gap-3">
-                      {/* ✅ Render logo properly */}
-                      <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
-                        <img
-                          src={p.logo}
-                          alt={`${p.title} logo`}
-                          className={`object-contain ${p.title === "RACETEK" ? "max-h-8" : "max-h-12"
-                            }`}
-                        />
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-semibold text-gray-200">
-                          {p.title}
-                        </h3>
-                        <p className="text-gray-400 text-sm">{p.desc}</p>
-                      </div>
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => handleProjectClick(p.link)}
+                >
+                  <div className="flex items-start gap-3">
+                    {/* ✅ Render logo properly */}
+                    <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
+                      <img
+                        src={p.logo}
+                        alt={`${p.title} logo`}
+                        className={`object-contain ${p.title === "RACETEK" ? "max-h-8" : "max-h-12"}`}
+                      />
                     </div>
-                  </motion.div>
-                </Link>
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-200">
+                        {p.title}
+                      </h3>
+                      <p className="text-gray-400 text-sm">{p.desc}</p>
+                    </div>
+                  </div>
+                </motion.div>
               ))}
             </div>
             <div className="flex justify-center mt-6">
