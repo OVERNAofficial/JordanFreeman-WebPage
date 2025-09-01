@@ -2,15 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { X, Download } from "lucide-react";
-import logoImage from "/JordanFreemanLogo.png";
-
-// ✅ Import real logos
-import racetekLogo from "/racetek-logo.png";
-import overnaLogo from "/OVERNAthemelogo.png";
-import pluginsLogo from "/OVERNAthemelogo.png"; // same as ØVERNA
-import synterraLogo from "/synterra-icon.png";
-import aermorixLogo from "/AERMORIX.png";
-import saasLogo from "/saas.png";
+// Removed imports for public assets
 
 const projects = [
   {
@@ -18,42 +10,42 @@ const projects = [
     description:
       "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
     link: "/projects/racetek",
-    logo: racetekLogo,
+  logo: "/racetek-logo.png",
   },
   {
     title: "ØVERNA Composer",
     description:
       "Autonomous DAW assistant for MIDI/sample generation, real-time automation, and seamless integration with MPC, Reaper, and Ableton.",
     link: "/projects/overna",
-    logo: overnaLogo,
+  logo: "/OVERNAthemelogo.png",
   },
   {
     title: "ØVERNA Focus (w/ Bridge)",
     description:
       "A suite of ØVERNA audio plugins. Focus is a VST3/AU transient isolator designed to clean up kick bleeding and tighten low-end dynamics. Includes The Bridge, a creative audio utility for experimental sound design.",
     link: "/projects/plugins",
-    logo: pluginsLogo,
+  logo: "/OVERNAthemelogo.png",
   },
   {
     title: "SYNTERRA OS",
     description:
       "Local modular AI operating system with file manager, macOS automation, browser integration, and persistent agent memory.",
     link: "/projects/synterra",
-    logo: synterraLogo,
+  logo: "/synterra-icon.png",
   },
   {
     title: "Ærmorix",
     description:
       "AI-powered cybersecurity platform delivering real-time monitoring, automated defense, and intelligent threat analysis.",
     link: "/projects/aermorix",
-    logo: aermorixLogo,
+  logo: "/AERMORIX.png",
   },
   {
     title: "SaaS-Trend",
     description:
       "SaaS insights aggregator with trend tracking, Product Hunt integrations, and clean modern UI for newsletters and discovery.",
     link: "/projects/saastrend",
-    logo: saasLogo,
+  logo: "/saas.png",
   },
 ];
 
@@ -89,7 +81,7 @@ export default function FeaturesSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src={logoImage}
+            src="/JordanFreemanLogo.png"
             alt="Jordan Freeman Logo"
             className="w-56 h-56 mb-2 rounded-full border-4 border-[#39FF14] shadow-[0_0_30px_#39FF14aa]"
           />
