@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import FeaturesSection from "@/components/FeaturesSection";
+import logoImage from "public/JordanFreemanLogo.png";
 
 export default function Home() {
   return (

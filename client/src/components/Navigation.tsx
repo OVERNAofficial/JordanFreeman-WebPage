@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Download } from "lucide-react";
 import { useLocation } from "react-router-dom";
-import logoImage from "/JordanFreemanLogo.png";
+import logoImage from "public/JordanFreemanLogo.png";
 
 // Import project logos
 import racetekLogo from "/racetek-logo.png";
