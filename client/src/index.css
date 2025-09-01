@@ -59,8 +59,9 @@
 }
 
 @layer base {
+  /* Removed invalid @apply border-border; Tailwind does not provide border-border by default. */
   * {
-    @apply border-border;
+    border-color: var(--border);
   }
 
   html {
