@@ -10,42 +10,42 @@ const projects = [
     description:
       "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
     link: "/projects/racetek",
-  logo: "/racetek-logo.png",
+  logo: "/assets/racetek-logo.png",
   },
   {
     title: "ØVERNA Composer",
     description:
       "Autonomous DAW assistant for MIDI/sample generation, real-time automation, and seamless integration with MPC, Reaper, and Ableton.",
     link: "/projects/overna",
-  logo: "/OVERNAthemelogo.png",
+  logo: "/assets/OVERNAthemelogo.png",
   },
   {
     title: "ØVERNA Focus (w/ Bridge)",
     description:
       "A suite of ØVERNA audio plugins. Focus is a VST3/AU transient isolator designed to clean up kick bleeding and tighten low-end dynamics. Includes The Bridge, a creative audio utility for experimental sound design.",
     link: "/projects/plugins",
-  logo: "/OVERNAthemelogo.png",
+  logo: "/assets/OVERNAthemelogo.png",
   },
   {
     title: "SYNTERRA OS",
     description:
       "Local modular AI operating system with file manager, macOS automation, browser integration, and persistent agent memory.",
     link: "/projects/synterra",
-  logo: "/synterra-icon.png",
+  logo: "/assets/synterra-icon.png",
   },
   {
     title: "Ærmorix",
     description:
       "AI-powered cybersecurity platform delivering real-time monitoring, automated defense, and intelligent threat analysis.",
     link: "/projects/aermorix",
-  logo: "/AERMORIX.png",
+  logo: "/assets/AERMORIX.png",
   },
   {
     title: "SaaS-Trend",
     description:
       "SaaS insights aggregator with trend tracking, Product Hunt integrations, and clean modern UI for newsletters and discovery.",
     link: "/projects/saastrend",
-  logo: "/saas.png",
+  logo: "/assets/saas.png",
   },
 ];
 
@@ -81,7 +81,7 @@ export default function FeaturesSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src="/JordanFreemanLogo.png"
+            src="/assets/JordanFreemanLogo.png"
             alt="Jordan Freeman Logo"
             className="w-56 h-56 mb-2 rounded-full border-4 border-[#39FF14] shadow-[0_0_30px_#39FF14aa]"
           />
@@ -182,7 +182,7 @@ export default function FeaturesSection() {
 
             {/* Download button */}
             <a
-              href="/JordanFreemanRésumé.pdf"
+              href="/assets/JordanFreemanRésumé.pdf"
               download
               className="absolute top-3 left-3 text-gray-300 hover:text-[#39FF14] transition flex items-center gap-1"
             >
@@ -192,7 +192,7 @@ export default function FeaturesSection() {
 
             {/* PDF Viewer */}
             <iframe
-              src="/JordanFreemanRésumé.pdf"
+              src="/assets/JordanFreemanRésumé.pdf"
               className="w-full h-full rounded-lg"
               title="Resume PDF"
             />

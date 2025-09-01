@@ -4,12 +4,12 @@ import { Menu, X, Download } from "lucide-react";
 import { useLocation } from "react-router-dom";
 
 // Import project logos
-import racetekLogo from "/racetek-logo.png";
-import overnaLogo from "/OVERNAthemelogo.png";
-import pluginsLogo from "/OVERNAthemelogo.png";
-import synterraLogo from "/synterra-icon.png";
-import aermorixLogo from "/AERMORIX.png";
-import saasLogo from "/saas.png";
+import racetekLogo from "/assets/racetek-logo.png";
+import overnaLogo from "/assets/OVERNAthemelogo.png";
+import pluginsLogo from "/assets/OVERNAthemelogo.png";
+import synterraLogo from "/assets/synterra-icon.png";
+import aermorixLogo from "/assets/AERMORIX.png";
+import saasLogo from "/assets/saas.png";
 
 // Import modal components
 import ProjectsModal from "./ProjectsModal";
@@ -65,7 +65,7 @@ export default function Navigation() {
               onClick={() => setIsLogoOpen(true)}
             >
               <img
-                src="/JordanFreemanLogo.png"
+                src="/assets/JordanFreemanLogo.png"
                 alt="Jordan Freeman Logo"
                 className="w-10 h-10 rounded-full border border-gray-500"
               />
@@ -233,7 +233,7 @@ export default function Navigation() {
             onClick={() => setIsLogoOpen(false)}
           >
             <motion.img
-              src="/JordanFreemanLogo.png"
+              src="/assets/JordanFreemanLogo.png"
               alt="Jordan Freeman"
               className="w-72 h-72 md:w-[28rem] md:h-[28rem] rounded-full border-4 border-[#39FF14] shadow-[0_0_25px_#39FF14aa]"
               initial={{ scale: 0.7, opacity: 0 }}
@@ -272,7 +272,7 @@ export default function Navigation() {
                 <X size={28} />
               </button>
               <a
-                href="/JordanFreemanRésumé.pdf"
+                href="/assets/JordanFreemanRésumé.pdf"
                 download
                 className="absolute top-3 left-3 text-gray-300 hover:text-[#39FF14] transition flex items-center gap-1"
               >

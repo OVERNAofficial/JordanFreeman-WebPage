@@ -41,7 +41,7 @@ export default function LogoIntro({ onComplete }: LogoIntroProps) {
         transition={{ duration: 0.4, ease: "easeIn" }} // quicker entry (was 0.8)
       >
         <img
-          src="/JordanFreemanLogo.png"
+          src="/assets/JordanFreemanLogo.png"
           alt="Jordan Freeman Logo"
           className="object-contain max-w-full max-h-full"
           style={{
