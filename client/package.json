@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "dev:host": "vite --host",
-  "build": "vite build && npm run postbuild",
-  "postbuild": "node scripts/copy-assets.js",
+  "build": "vite build",
     "start": "vite preview",
     "preview": "vite preview",
     "check": "tsc",
