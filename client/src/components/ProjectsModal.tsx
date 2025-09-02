@@ -86,11 +86,11 @@ export default function ProjectsModal({
                 >
                   <div className="flex items-start gap-3">
                     {/* ✅ Render logo properly */}
-                    <div className={`flex items-center justify-center flex-shrink-0 ${p.title === "SaaS-Trend" ? "w-20 h-20" : "w-12 h-12"}`}>
+                    <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
                       <img
                         src={p.logo}
                         alt={`${p.title} logo`}
-                        className={`object-contain ${p.title === "RACETEK" ? "max-h-8" : p.title === "SaaS-Trend" ? "max-h-20" : "max-h-12"}`}
+                        className={`object-contain ${p.title === "RACETEK" ? "max-h-8" : "max-h-12"}`}
                       />
                     </div>
                     <div>
