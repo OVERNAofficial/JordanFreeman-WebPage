@@ -33,7 +33,7 @@ const projects = [
     link: "/projects/aermorix",
   },
   {
-  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/1756779987986.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/1756780499255.png",
     title: "SaaS-Trend",
     desc: "Aggregator for rising SaaS tools with Product Hunt integration, trend insights, and newsletter-ready design.",
     link: "/projects/saastrend",
