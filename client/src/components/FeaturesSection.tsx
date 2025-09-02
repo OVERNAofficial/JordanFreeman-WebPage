@@ -52,7 +52,7 @@ const projects = [
     description:
       "SaaS insights aggregator with trend tracking, Product Hunt integrations, and clean modern UI for newsletters and discovery.",
     link: "/projects/saastrend",
-  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/saas.png",
+  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/1756779987986.png",
     // external: false
   },
 ];

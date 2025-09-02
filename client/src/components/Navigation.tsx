@@ -18,7 +18,7 @@ const projectHeaders: Record<string, { title: string; logo: string }> = {
   "/projects/plugins": { title: "FØCUS", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png" },
   "/projects/synterra": { title: "SYNTERRA", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/synterra-icon.png" },
   "/projects/aermorix": { title: "Ærmorix", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/AERMORIX.png" },
-  "/projects/saastrend": { title: "SaaS-Trend", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/saas.png" },
+  "/projects/saastrend": { title: "SaaS-Trend", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/1756779987986.png" },
 };
 
 export default function Navigation() {
