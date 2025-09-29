@@ -16,7 +16,7 @@ const projects = [
   },
   {
   logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
-    title: "ØVERNA Focus (w/ Bridge)",
+  title: "ØVERNA PORTAL VST3/AU",
     desc: "Audio plugin suite. Focus isolates transients to tighten mixes, while The Bridge enables experimental sound design workflows.",
     link: "/projects/plugins",
   },
