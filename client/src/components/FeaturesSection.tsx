@@ -10,7 +10,7 @@ const projects = [
   {
     title: "ØVERNA PORTAL VST3/AU",
     description:
-      "A suite of ØVERNA audio plugins. Focus is a VST3/AU transient isolator designed to clean up kick bleeding and tighten low-end dynamics. Includes The Bridge, a creative audio utility for experimental sound design.",
+      "Secure plugin manager portal with a modern interface, robust database pipeline, and a suite of beautifully designed VST3/AU audio plugins for creative professionals.",
     link: "/projects/plugins",
     logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
     // external: false
