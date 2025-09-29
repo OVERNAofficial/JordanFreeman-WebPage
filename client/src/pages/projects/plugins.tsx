@@ -4,12 +4,13 @@ export default function PluginsPage() {
   return (
     <ProjectDetailLayout
   title="ØVERNA PORTAL VST3/AU"
-      description="A suite of ØVERNA audio plugins. Focus is a VST3/AU transient isolator designed to clean up kick bleeding and tighten low-end dynamics. Includes The Bridge, a creative audio utility for experimental sound design."
+  description="ØVERNA PORTAL VST3/AU is a secure, next-generation plugin manager portal designed for modern audio creators. Featuring a robust database pipeline for seamless license management and plugin organization, the portal combines advanced security with a visually stunning, intuitive interface. Experience ØVERNA’s collection of beautifully crafted VST3/AU plugins—each engineered for creative power, reliability, and a cutting-edge user experience."
       features={[
-        "Transient isolation to clean up kick bleeding",
-        "Low-end tightening for better mix clarity",
-        "Cross-platform support for VST3/AU",
-        "Experimental sound design tools with The Bridge",
+        "Secure plugin manager portal with user authentication",
+        "Modern, intuitive interface for effortless plugin management",
+        "Robust database pipeline for license and plugin tracking",
+        "Beautifully designed VST3/AU plugins for creative audio workflows",
+        "Seamless organization and deployment of plugin assets",
       ]}
   logo="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png"
   video="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/overnapllugins.mp4"

@@ -3,22 +3,22 @@ import { useNavigate } from "react-router-dom";
 
 const projects = [
   {
-  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png",
-    title: "RACETEK",
-    desc: "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
-    link: "/projects/racetek",
+    logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
+    title: "ØVERNA PORTAL VST3/AU",
+    desc: "Audio plugin suite. Focus isolates transients to tighten mixes, while The Bridge enables experimental sound design workflows.",
+    link: "/projects/plugins",
   },
   {
-  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
+    logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
     title: "ØVERNA Composer",
     desc: "Autonomous DAW assistant for MIDI/sample generation, real-time automation, and seamless DAW integration.",
     link: "/projects/overna",
   },
   {
-  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
-  title: "ØVERNA PORTAL VST3/AU",
-    desc: "Audio plugin suite. Focus isolates transients to tighten mixes, while The Bridge enables experimental sound design workflows.",
-    link: "/projects/plugins",
+    logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png",
+    title: "RACETEK",
+    desc: "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
+    link: "/projects/racetek",
   },
   {
   logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/synterra-icon.png",

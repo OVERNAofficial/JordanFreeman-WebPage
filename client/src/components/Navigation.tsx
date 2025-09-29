@@ -13,9 +13,9 @@ import AboutModal from "./AboutModal";
 import ContactModal from "./ContactModal";
 
 const projectHeaders: Record<string, { title: string; logo: string }> = {
-  "/projects/racetek": { title: "RACETEK", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png" },
+  "/projects/plugins": { title: "VST3/AU", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png" },
   "/projects/overna": { title: "ØVERNA", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png" },
-  "/projects/plugins": { title: "FØCUS", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png" },
+  "/projects/racetek": { title: "RACETEK", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png" },
   "/projects/synterra": { title: "SYNTERRA", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/synterra-icon.png" },
   "/projects/aermorix": { title: "Ærmorix", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/AERMORIX.png" },
   "/projects/saastrend": { title: "SaaS-Trend", logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/1756780499255.png" },

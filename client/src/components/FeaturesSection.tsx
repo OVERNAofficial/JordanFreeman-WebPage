@@ -8,11 +8,11 @@ import { X, Download } from "lucide-react";
 
 const projects = [
   {
-    title: "RACETEK",
+    title: "ØVERNA PORTAL VST3/AU",
     description:
-      "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
-    link: "/projects/racetek",
-  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png",
+      "A suite of ØVERNA audio plugins. Focus is a VST3/AU transient isolator designed to clean up kick bleeding and tighten low-end dynamics. Includes The Bridge, a creative audio utility for experimental sound design.",
+    link: "/projects/plugins",
+    logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
     // external: false
   },
   {
@@ -20,15 +20,15 @@ const projects = [
     description:
       "Autonomous DAW assistant for MIDI/sample generation, real-time automation, and seamless integration with MPC, Reaper, and Ableton.",
     link: "/projects/overna",
-  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
+    logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
     // external: false
   },
   {
-  title: "ØVERNA PORTAL VST3/AU",
+    title: "RACETEK",
     description:
-      "A suite of ØVERNA audio plugins. Focus is a VST3/AU transient isolator designed to clean up kick bleeding and tighten low-end dynamics. Includes The Bridge, a creative audio utility for experimental sound design.",
-    link: "/projects/plugins",
-  logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png",
+      "AI-powered race strategy platform with real-time telemetry, tire degradation analysis, and ECHO assistant integration.",
+    link: "/projects/racetek",
+    logo: "https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/racetek-logo.png",
     // external: false
   },
   {
