@@ -12,7 +12,7 @@ export default function PluginsPage() {
         "Experimental sound design tools with The Bridge",
       ]}
   logo="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/OVERNAthemelogo.png"
-  video="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/focusdemo.mp4"
+  video="https://pub-9aefa38e687745f1bc54163088917511.r2.dev/assets/overnapllugins.mp4"
       prev={{ path: "/projects/saastrend", label: "SaaS-Trend" }}
       next={{ path: "/projects/racetek", label: "RACETEK" }}
     />
